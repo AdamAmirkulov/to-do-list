@@ -1,0 +1,45 @@
+.container{
+    width: 200px;         /* Set a width for the container */
+    height: 200px;        /* Set a height for the container */
+    display: flex;        /* Use flexbox to position the circles */
+    justify-content: space-around; /* Distribute circles evenly */
+    align-items: center;  /* Center the circles vertically */
+   
+    margin-left: 600px;
+}
+
+.circle{
+    border: 1px solid #d1dae3;
+    border-radius: 100%;
+    height: 35px;
+    margin: 0 8px;
+    transition: tranform 150ms ease-in-out, box-shadow 200ms ease-in-out;
+    width: 35px;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.header{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#search-button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(6, 41, 41);
+    color: white
+}
